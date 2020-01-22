@@ -57,12 +57,20 @@ header{
     text-shadow: 1px 2px black;
 }
 
+.centralizar{
+    text-align: center;
+}
+
 .space{
     padding-bottom: 10px;
 }
 
 .space-top{
     padding-top: 25px;
+}
+
+.space-margem{
+    margin-bottom: 10px;
 }
 
 .sub-titulo{

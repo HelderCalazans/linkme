@@ -36,7 +36,7 @@
                     </div>
                     <div class="col-md-3 col-sm-12 space">
                         <button type="button" class="btn btn-primary btn-block ajust-btn" data-toggle="modal" data-target="#modalEnvio">
-                            Envie uma mensagem
+                            <i class="far fa-envelope"></i> Email
                           </button>
                     </div>
                 </div>
@@ -47,17 +47,17 @@
             <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Mande uma mensagem</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
                 <div class="modal-body">
-                ...
+                    <input type="email" class="form-control space-margem" id="inputEmail" placeholder="Digite seu endereço de email">
+                    <textarea class="form-control" id="areaTxt" rows="3" placeholder="Digite sua mensagem"></textarea>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">Enviar</button>
                 </div>
             </div>
             </div>
