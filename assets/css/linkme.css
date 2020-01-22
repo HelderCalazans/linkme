@@ -29,11 +29,16 @@ header{
         border-radius: 50%;
         border: 5px solid white;
     } 
+
+    .text{
+        font-size: 16px !important;
+        font-weight: 400;
+    }
 }
 
 
 .text{
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .link{
