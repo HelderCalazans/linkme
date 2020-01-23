@@ -1,7 +1,17 @@
 html, body{
     height: 100%;
     width: 100%;
+    /* font-family: 'ZCOOL QingKe HuangYou', cursive; */
 }
+
+p{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+a, button{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
 header{
     position: relative;
     width: 100%;
@@ -68,6 +78,8 @@ header{
 
 .ajust-btn{
     border-radius: 2rem !important;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: 800 !important;
 }
 
 .space-margem-top{
