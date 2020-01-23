@@ -11,11 +11,11 @@
 ****
 
 **Tecnologias Utilizadas**
->HTML 5
->CSS 3
->JavaScript
->Bootstrap 4
->Firebase
->Google Analytics
->
+>HTML 5  
+>CSS 3  
+>JavaScript  
+>Bootstrap 4  
+>Firebase  
+>Google Analytics  
+>Google Fonts
 
