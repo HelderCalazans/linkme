@@ -23,18 +23,7 @@ header{
     border: 5px solid white;
 }
 
-@media (max-width: 575.98px){
-    .profile{
-        width: 40%;
-        border-radius: 50%;
-        border: 5px solid white;
-    } 
 
-    .text{
-        font-size: 16px !important;
-        font-weight: 400;
-    }
-}
 
 
 .text{
@@ -79,4 +68,33 @@ header{
 
 .ajust-btn{
     border-radius: 2rem !important;
+}
+
+.space-margem-top{
+    margin-top: 70px;
+}
+
+.space-margem-bottom{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 575.98px){
+    .profile{
+        width: 40%;
+        border-radius: 50%;
+        border: 5px solid white;
+    } 
+
+    .text{
+        font-size: 16px !important;
+        font-weight: 600;
+    }
+
+    .space-margem-top{
+        margin-top: 35px;
+    }
+
+    .space-margem-bottom{
+        margin-bottom: 10px;
+    }
 }
